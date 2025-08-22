@@ -1,0 +1,16 @@
+(folder) :
+python batch_process.py --input "Enter path of your folder" --model m  
+
+
+images : 
+python main.py --input "Enter path of Image" --mode image --model m
+
+
+video :
+
+python main.py --input "Enter Path of video" --mode video --model m
+
+live : 
+
+python main.py --input 0 --mode video --model m
+
